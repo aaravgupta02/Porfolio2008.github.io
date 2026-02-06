@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Gupta - Portfolio</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Aarav Gupta</div>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>A passionate student exploring technology, science, and creativity to build a brighter future.</p>
+            <a href="https://aaravgupta02.github.io/aarav-/" target="_blank" class="cta-btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="fade-in">I'm Aarav, a dedicated student with a love for learning and problem-solving. Currently pursuing studies in computer science and economics, I'm passionate about blending technology with real-world applications. My journey is about constant growth—exploring new skills, tackling challenges, and turning ideas into reality. I believe in discipline, creativity, and the power of curiosity to drive innovation.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <div class="progress-bar" data-level="80"><div class="progress"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <div class="progress-bar" data-level="75"><div class="progress"></div></div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar" data-level="70"><div class="progress"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects & Assignments</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="websites">Websites</button>
+                <button class="filter-btn" data-filter="assignments">Assignments</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="websites">
+                    <h3>Previous Portfolio Website</h3>
+                    <p>My earlier portfolio website showcasing initial projects and skills. <a href="https://aaravgupta02.github.io/aarav-/" target="_blank">View here</a>.</p>
+                    <p><strong>Learned:</strong> Basics of web development and self-presentation.</p>
+                </div>
+                <div class="project-card" data-category="websites">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive website showcasing skills and projects, built with HTML, CSS, and JS.</p>
+                    <p><strong>Learned:</strong> Responsive design and JavaScript interactivity.</p>
+                </div>
+                <div class="project-card" data-category="assignments">
+                    <h3>Physics Simulation</h3>
+                    <p>A computational model of projectile motion using Python.</p>
+                    <p><strong>Learned:</strong> Applying physics principles to code.</p>
+                </div>
+                <div class="project-card" data-category="websites">
+                    <h3>E-commerce Mockup</h3>
+                    <p>A simple online store prototype with product listings.</p>
+                    <p><strong>Learned:</strong> UI/UX design and front-end development.</p>
+                </div>
+                <div class="project-card" data-category="assignments">
+                    <h3>Economic Analysis Report</h3>
+                    <p>A case study on market trends and data visualization.</p>
+                    <p><strong>Learned:</strong> Research and presentation skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2>Certificates</h2>
+            <img src="AARAV GUPTA.png" alt="Certificate">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p>aarav0774@gmail.com</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2023 Aarav Gupta. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="mailto:aarav0774@gmail.com">Contact Me</a>
+                    <a href="https://aaravgupta02.github.io/aarav-/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
